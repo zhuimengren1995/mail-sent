@@ -18,7 +18,7 @@ public class MailController {
     private ServiceMail mailService;
 
     //接收邮箱地址
-    private String to = "amc2533064395@163.com";
+    private String to = "邮箱";//改成自己的
 
     @GetMapping("/to")
     public void sendSimpleMail() {
